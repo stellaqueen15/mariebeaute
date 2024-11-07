@@ -1,0 +1,164 @@
+DOCUMENTATION DE L'API MARIE BEAUTÉ
+
+SECTION 1 - Rendez-vous
+
+Récupérer la liste de rendez-vous.
+Exemples de requête rendez-vous:
+  GET - /rdvs
+Réponse:
+  [
+    "/rdv/1",
+    "/rdv/2",
+    "/rdv/3"
+  ]
+
+Récupérer un rendez-vous
+Exemples de requête rendez-vous:
+  GET - /rdv/:id
+Réponse:
+  {
+    "id": 1,
+    "date": "01/02/2024",
+    "heure": "14h30",
+    "spécialiste": "Johan",
+    "service": "Coiffure"
+  }
+
+Ajouter un rendez-vous
+Exemples de requête rendez-vous:
+  POST - /rdv
+Réponse:
+  {
+    "message": "Rendez-vous ajouté avec succès",
+    "rdv": {
+        "id": 4,
+        "date": "01/02/2024",
+        "heure": "14h30",
+        "spécialiste": "Johan",
+        "service": "Coiffure"
+    }
+}
+
+Modifier un rendez-vous
+Exemples de requête rendez-vous:
+  PUT - /rdv/:id
+Réponse:
+{
+    "message": "Rendez-vous mis à jour avec succès",
+    "rdv": {
+        "id": 2,
+        "date": "01/02/2024",
+        "heure": "14h30",
+        "spécialiste": "Johan",
+        "service": "Coiffure"
+    }
+}
+
+Supprimer un rendez-vous
+Exemples de requête rendez-vous:
+  DELETE - /rdv/:id
+Réponse:
+  {
+    "message": "Rendez-vous supprimé avec succès"
+}
+
+SECTION 2 - Client
+
+Récupérer la liste de clients.
+Exemples de requête client:
+  GET - /clients
+Réponse:
+  [
+    "/client/1",
+    "/client/2",
+    "/client/3"
+  ]
+
+Récupérer un client
+Exemples de requête client:
+  GET - /client/:id
+Réponse:
+  {
+    id: 2,
+    prénom: "Lucie",
+    nom: "Pronn",
+    email: "LuciePronn@gmail.com",
+    motDePasse: "lucie123",
+  }
+
+Ajouter un client
+Exemples de requête client:
+  POST - /client
+Réponse:
+  {
+    "message": "Client ajouté avec succès",
+    "client": {
+    id: 2,
+    prénom: "Lucie",
+    nom: "Pronn",
+    email: "LuciePronn@gmail.com",
+    motDePasse: "lucie123",
+  }
+}
+
+Modifier un client
+Exemples de requête client:
+  PUT - /client/:id
+Réponse:
+{
+    "message": "Client mis à jour avec succès",
+    "client": {
+    id: 2,
+    prénom: "Lucie",
+    nom: "Pronn",
+    email: "LuciePronn@gmail.com",
+    motDePasse: "lucie123",
+  }
+}
+
+Supprimer un client
+Exemples de requête client:
+  DELETE - /client/:id
+Réponse:
+  {
+    "message": "Client supprimé avec succès"
+}
+
+SECTION 2 - Spécialistes
+
+Récupérer la liste de spécialistes
+Exemples de requête spécialiste:
+  GET - /specialistes
+Réponse:
+  [
+    "/specialiste/1",
+    "/specialiste/2",
+    "/specialiste/3"
+  ]
+
+Récupérer un specialiste
+Exemples de requête specialiste:
+  GET - /specialiste/:id
+Réponse:
+  {
+    id: 1,
+    prénom: "Hara",
+    nom: "Sumi",
+    description: "Première description",
+    photo: "image.png",
+  }
+
+Modifier un specialiste
+Exemples de requête specialiste:
+  PUT - /specialiste/:id
+Réponse:
+{
+    "message": "Specialiste mis à jour avec succès",
+    "specialiste": {
+    id: 1,
+    prénom: "Hara",
+    nom: "Sumi",
+    description: "Première description",
+    photo: "image.png",
+  }
+}
