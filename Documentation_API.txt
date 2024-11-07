@@ -124,7 +124,7 @@ Réponse:
     "message": "Client supprimé avec succès"
 }
 
-SECTION 2 - Spécialistes
+SECTION 3 - Spécialistes
 
 Récupérer la liste de spécialistes
 Exemples de requête spécialiste:
