@@ -1,0 +1,1 @@
+import{r}from"./prefetch.helper-4a4e89e7.js";const e=(n=r.useEffect,function(e,t){var u=r.useRef(!1);n((function(){return function(){u.current=!1}}),[]),n((function(){if(u.current)return e();u.current=!0}),t)});var n;export{e as u};

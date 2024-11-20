@@ -1,0 +1,1 @@
+import{_ as e,R as t}from"./prefetch.helper-4a4e89e7.js";e.styled.div("bw-mb-6 bw-mt-2 bw-flex bw-items-center bw-gap-3");const a=()=>t.createElement(t.Fragment,null,t.createElement(e.Separator,{className:"bw-my-6"}),t.createElement("div",{className:"bw-flex"},t.createElement(e.Button,{className:"bw-ms-auto bw-w-44",type:"submit"},"Save Changes")));export{a as S};

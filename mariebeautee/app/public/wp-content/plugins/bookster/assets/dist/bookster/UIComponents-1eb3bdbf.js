@@ -1,0 +1,1 @@
+import{_ as e}from"./prefetch.helper-4a4e89e7.js";const b={Standalone:e.stylex.h2("bw-pb-4 bw-text-2xl"),Wrapper:e.stylex.div("bw-flex bw-flex-wrap bw-items-center bw-gap-3 bw-pb-4"),Title:e.stylex.h2("bw-flex-auto bw-text-2xl")},t=e.stylex.div("btr-scrollbar-md bw-h-full bw-relative bw-p-5 bw-pt-4 bw-pb-6 bw-overflow-auto bw-overscroll-none");export{t as P,b as a};
