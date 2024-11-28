@@ -1,0 +1,1 @@
+import{r as e}from"./prefetch.helper-4a4e89e7.js";const n=n=>{const[r,t]=e.useState(window.innerWidth>=n);return e.useEffect((()=>{const e=()=>{t(window.innerWidth>=n)};return window.addEventListener("resize",e),()=>window.removeEventListener("resize",e)}),[]),r},r={sm:576,md:768,lg:992,xl:1200,"2xl":1600};export{r as B,n as u};

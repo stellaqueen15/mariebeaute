@@ -1,0 +1,135 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Ajouter votre code CSS ici.
+                     
+Par exemple:
+.exemple {
+    color: red;
+}
+
+Pour améliorer vos connaissances en CSS, visitez http://www.w3schools.com/css/css_syntax.asp
+
+Fin du commentaire */ 
+
+body{
+	font: 16px 'Roboto', sans-serif;
+}
+
+.bw-flex.bw-w-\[60px\].bw-flex-col.bw-bg-primary.bw-text-white
+{
+	background-color: rgb(19, 168, 168);
+}
+
+.bw-mb-0.bw-flex-grow.bw-font-heading.bw-text-lg.bw-font-semibold.bw-text-primary {
+    color: rgb(19, 168, 168);
+}
+
+.bw-cursor-pointer.bw-text-ellipsis.bw-text-nowrap.bw-px-4.bw-text-primary\/80{
+	color: rgb(19, 168, 168);
+}
+
+.btr-btn.bw-inline-flex.bw-gap-2.bw-transition-all.bw-font-normal.bw-cursor-pointer.bw-items-center.bw-rounded-theme.bw-justify-center.bw-border-solid.bw-border.bw-whitespace-nowrap.bw-text-center.disabled\:bw-pointer-events-none.disabled\:bw-text-muted-foreground\/40.disabled\:hover\:bw-border-inherit.bw-h-8.bw-py-2.bw-text-base.btr-btn_link.bw-border-transparent.bw-px-0.disabled\:bw-bg-transparent.btr-btn_primary.bw-pl-0, .btr-btn.bw-inline-flex.bw-gap-2.bw-transition-all.bw-font-normal.bw-cursor-pointer.bw-items-center.bw-rounded-theme.bw-justify-center.bw-border-solid.bw-border.bw-whitespace-nowrap.bw-text-center.disabled\:bw-pointer-events-none.disabled\:bw-text-muted-foreground\/40.disabled\:bw-bg-base-bg2\/80.disabled\:hover\:bw-border-inherit.bw-h-8.bw-w-8.bw-text-base.btr-btn_ghost.bw-border-transparent.btr-btn_primary
+{
+	color: rgb(19, 168, 168);
+}
+
+.btr-btn.bw-inline-flex.bw-gap-2.bw-transition-all.bw-font-normal.bw-cursor-pointer.bw-items-center.bw-rounded-theme.bw-justify-center.bw-border-solid.bw-border.bw-whitespace-nowrap.bw-text-center.disabled\:bw-pointer-events-none.disabled\:bw-text-muted-foreground\/40.disabled\:bw-bg-base-bg2\/80.disabled\:hover\:bw-border-inherit.bw-h-8.bw-px-4.bw-py-2.bw-text-base.btr-btn_fill.bw-border-transparent.btr-btn_primary{
+	background-color: rgb(19, 168, 168);
+}
+
+.bw-mt-3.bw-text-center.bw-font-semibold.bw-leading-4::after {
+    content: " - Coiffeur précis et créatif";
+    color: black;
+}
+
+
+@media (max-width: 767px) {
+	#primary, #content{
+		width: 360px;
+	}
+	
+	.bw-relative.bw-m-auto.bw-flex.bw-max-h-\[640px\].bw-min-h-\[640px\].bw-min-w-\[800px\].bw-max-w-4xl.bw-overflow-hidden.bw-rounded-2xl.bw-shadow-md{
+    	min-width: 0;
+	}
+	
+	.bw-relative.bw-flex.bw-shrink-0.bw-overflow-hidden.bw-rounded-full.bw-h-28.bw-w-28.bw-shadow{
+		width: 90%;
+		height: auto;
+	}
+	
+	.bw-flex.bw-items-center.bw-justify-between {
+		display: flex;
+		flex-direction: column;        /* Aligner les éléments en colonne */
+		align-items: flex-start;       /* Aligner les éléments à gauche */
+		justify-content: flex-start;   /* Aligner les éléments en haut de la colonne */
+	}
+	
+	.bw-flex.bw-w-\[60px\].bw-flex-col.bw-bg-primary.bw-text-white{
+		width: 46px;
+	}
+	
+	.bw-grid.bw-grid-cols-\[5rem_auto_10\.625rem_6\.75rem_6\.25rem_7\.5rem_2\.125rem\].bw-rounded-md.bw-bg-gray-100.bw-text-xs.bw-uppercase.bw-leading-none.bw-text-gray-500{
+		display: none;
+	}
+	
+	.bw-relative.bw-flex-1.bw-border-l-0.bw-bg-base-bg2.bw-text-left{
+		width: 400px;
+	}
+	
+	.-bw-mt-4.bw-mb-6.bw-flex.bw-items-end.bw-gap-5.bw-px-6{
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+	
+	.bw-mb-1.bw-ml-auto.bw-flex.bw-gap-4{
+		display: flex;
+		flex-wrap: wrap; /* Permet de passer à une nouvelle ligne */
+		align-items: flex-start;
+		justify-content: flex-start;
+		gap: 10px; /* Gère l'espacement entre les éléments */
+		margin-left: 0;
+	}
+	
+	.bw-mb-1.bw-ml-auto.bw-flex.bw-gap-4 > * {
+		flex: 0 0 calc(50% - 10px);
+	}
+	
+	.bw-mb-4.bw-flex.bw-flex-col.bw-rounded-lg.bw-bg-white.bw-px-5.bw-py-5{
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+	
+	.bw-rounded-lg.bw-bg-white.bw-px-5.bw-pb-2\.5.bw-pt-4{
+		width: 260px;
+	}
+
+}
+
+@media (min-width: 768px) {
+    #primary, #content {
+        width: 680px;
+    }
+	
+	.bw-relative.bw-m-auto.bw-flex.bw-max-h-\[640px\].bw-min-h-\[640px\].bw-min-w-\[800px\].bw-max-w-4xl.bw-overflow-hidden.bw-rounded-2xl.bw-shadow-md{
+    	min-width: 0;
+	}
+	
+	.bw-grid.bw-grid-cols-\[5rem_auto_10\.625rem_6\.75rem_6\.25rem_7\.5rem_2\.125rem\].bw-rounded-md.bw-bg-gray-100.bw-text-xs.bw-uppercase.bw-leading-none.bw-text-gray-500{
+		display: none;
+	}
+}
+
+@media (min-width: 1024px) {
+    #primary, #content {
+        width: 910px;
+    }
+	
+	.bw-relative.bw-m-auto.bw-flex.bw-max-h-\[640px\].bw-min-h-\[640px\].bw-min-w-\[800px\].bw-max-w-4xl.bw-overflow-hidden.bw-rounded-2xl.bw-shadow-md{
+    	min-width: 0;
+	}
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->
